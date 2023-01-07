@@ -1,0 +1,16 @@
+.Button {
+    display: inline-block;
+    color: var(--primary-color);
+    background: var(--add-btn);
+    padding: 0.5rem 2rem;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.Button:hover {
+    color: var(--link-color);
+    background: var(--primary-color);
+    border: 1px solid var(--link-color);
+}

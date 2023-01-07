@@ -1,0 +1,200 @@
+.student_div{
+    background-color: #f5f5f5;
+    padding-left:10px;
+    display: relative;
+}
+.student_title{
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    align-items: center;
+    color:#7380ec;
+}
+.student_title:after{
+    position: absolute;
+    content:"";
+    display: inline-block;
+    width:60%;
+    bottom: 30%;
+    background-color:#7380ec;
+    height: 5px;
+    left: calc(100%-60%);
+}
+.add_student_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.plus_icon{
+    
+    margin-top:-5px;
+}
+.poped{
+    text-align: center;
+    width: 32%;
+    
+    background-color:#f5f5f5;
+    border:none;
+    box-shadow: 0px 0px 10px #7380ec;
+    border-radius:5px;  
+}
+#date{
+    width:200px;
+}
+.student_add_title{
+    padding-top:20px;
+    font-size: 30px;
+    color:#7380ec;
+}
+.student_add_input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #7380ec;
+    margin-bottom:20px;
+    height: 20px;
+    font-size: 20px;
+    color: black;
+    background-color: #f5f5f5;
+    text-decoration: double;
+    font-size: 15px;
+}
+.student_add_input:focus{
+    outline: none;
+    border:none;
+    border-bottom: 1px solid #7380ec;
+}
+.file{
+    border:none;
+    width:60% !important;
+    margin-bottom:40px; 
+}
+.confirm_add_div{
+    width:100%;
+    background-color: #7380ec;
+    box-shadow: 0px 0px 10px #7380ec;
+}
+.confirm_add_button{
+    width:100%;
+    color:white;
+}
+.Existing_student,.Add_student{
+   width:165px;
+    height:40px;
+    color:white;
+    background-color: #7380ec;
+    box-shadow: 0px 0px 10px #7380ec;
+}
+.Existing_student{
+    margin-right:20px !important;
+    width:40vw;
+}
+.add_register_div{
+    padding-top:20px;
+    width: 100%;
+    display: flex;
+    margin-left:0.7vw;
+    padding-bottom:20px;
+}
+/* table */
+
+.table_head{
+    background-color: #7380ec !important;
+}
+.table_container{
+display: grid;
+grid-template-columns: auto;
+grid-template-rows: auto auto;
+}
+.buttons{
+    display: flex;
+    width:40vw;
+}
+.tables_container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.student_container{
+    display:flex;
+    justify-content: space-between;
+}
+.StudentTable{
+    text-align: center;
+    margin-top:10px;
+    width:85%;
+    display: flex;
+    justify-content: center;
+}
+.Attendancetable{
+    text-align: center;
+    margin-top:10px;
+    width:60vw;
+}
+.DateToday{
+color:#7380ec
+}
+.attendance_container{
+    width:55vw;
+}
+.nothing{
+    width: 84.6vw !important;
+}
+.add_student_div{
+    margin-top:-30px;
+    padding-bottom:20px;
+    
+}
+.register{
+    padding-top:20px;
+    width: 84.6vw !important;
+    display: flex;
+    padding-bottom:20px;
+    padding-left:0.7vw;
+    
+}
+.select_class_and_section_div{
+    margin-top:-30px;
+    width: 25vw !important;
+    display: flex;
+    flex-direction: column !important;
+    padding-bottom:20px;
+    padding-left:0.7vw;
+    margin-bottom:-20px
+
+}
+.classes_select,.sections_select,.students_select{
+    margin:20px;
+}
+.existing_student_title{
+    color:#7380ec;
+}
+.confirm_register_div{
+    width:100%;
+    background-color: #7380ec;
+    box-shadow: 0px 0px 10px #7380ec;
+}
+.confirm_register_button{
+    width:100%;
+}
+.box{
+    margin:10px;
+}
+.Existing_student_on,.Add_student_on{
+    width:165px;
+    height:40px;
+    color:white;
+    background-color: #7380ec;
+    box-shadow: 0px 0px 10px #7380ec;
+    animation: 1s on linear forwards; 
+}
+@keyframes on {
+    0%{
+        width:165px;
+    }
+    100%{
+        width:95%;
+    }
+    
+}

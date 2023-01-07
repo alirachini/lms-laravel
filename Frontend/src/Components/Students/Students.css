@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto');
+
+.ClassH2 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #7380ec;
+  padding-bottom: 55px;
+  font-size: 35px;
+  width: calc(100vw - 270px);
+  margin-left: 250px;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding-top: 90px;
+}
+
+
+
+.se {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: 'Lato' !important;
+}
+
+.search-box {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+
+.input-search {
+  box-sizing: border-box;
+  height: 50px;
+  width: 50px;
+  border-style: none;
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  outline: none;
+  border-radius: 25px;
+  transition: all .5s ease-in-out;
+  background-color: #F3F3F3;
+  padding-right: 40px;
+  color: #7380ec;
+}
+
+.input-search::placeholder {
+  color: #7380ec;
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 100;
+
+}
+
+.btn-search {
+  width: 50px;
+  height: 50px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  color: #7380ec;
+  background-color: transparent;
+  pointer-events: painted;
+}
+
+.btn-search:focus~.input-search {
+  width: 300px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom: 2px solid #7380ec;
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  background-color: #F6F6F9;
+}
+
+.input-search:focus {
+  width: 300px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom: 2px solid #7380ec;
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+
+.confirm {
+  background-color: #7380ec;
+  color: #fff;
+  width: 3rem;
+  height: 2rem;
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.dot {
+  height: 10px;
+  font-weight: 100;
+  width: 10px;
+  background-color: green;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dotred {
+  height: 10px;
+  font-weight: 100;
+  width: 10px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.iconAdd {
+  padding-top: 13px;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.addclassh2 {
+  width: calc(100vw - (250px + 390px));
+  margin-left: 390px;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  color: #7380ec;
+  padding-bottom: 0;
+}
+
+.title_and_search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 94%
+}
+
+.ClassH2:before,
+.ClassH2:after {
+  border-top: 2px solid #7380ec;
+}
+
+.ClassH2:before {
+  display: inline-block;
+  margin: 0 20px 8px 0;
+  height: 3px;
+  content: " ";
+  text-shadow: none;
+  width: 300px;
+}
+
+.ClassH2:after {
+  display: inline-block;
+  margin: 0 0 8px 20px;
+  height: 3px;
+  content: " ";
+  text-shadow: none;
+  width: 300px;
+}
+
+.dash-side {
+  width: 95vw;
+}
+
+.card_lkbeer {
+  height: 315px;
+}
+
+.tablecenter {
+  width: calc(100vw - 250px);
+  margin-left: 250px;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding-left: 50px;
+  margin-top: 30px;
+}
+
+.iconDesign {
+  color: #7380ec;
+  cursor: pointer;
+}
+
+.iconDesign:hover {
+  color: red;
+}
+
+.table {
+
+  border-spacing: 0;
+  box-shadow: 0 2px 15px rgba(64, 64, 64, .7);
+  border-radius: 12px 12px 0 0;
+  overflow: hidden;
+  width: 70vw;
+
+}
+
+td,
+th {
+  padding: 10px 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #7380ec;
+  color: white;
+  font-family: 'Open Sans', Sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  white-space: nowrap;
+
+}
+
+.border {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+tr {
+  width: 100%;
+  background-color: #fafafa;
+  font-family: 'Montserrat', sans-serif;
+}
+
+tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+
+.ta2seem_Cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin: 4rem 5vw;
+  padding: 0;
+  list-style-type: none;
+}
+
+.bodyCard {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 150px;
+  /* height: 450px; */
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+  transition: 0.5s
+}
+
+.card:hover {
+  height: 350px;
+}
+
+.imgBx {
+
+  position: absolute;
+  left: 50%;
+  top: -50px;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.35);
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.card:hover .imgBx {
+  width: 150px;
+  height: 150px;
+
+}
+
+
+.imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card .content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+}
+
+.card .content .details {
+  padding: 50px;
+  text-align: center;
+  width: 100%;
+  transition: 0.5s;
+  transform: translateY(130px);
+}
+
+.card:hover .content .details {
+  transform: translateY(0px);
+}
+
+.card .content .details h2 {
+  font-size: 1.25em;
+  font-weight: 600;
+  color: #555;
+  line-height: 1.2em;
+}
+
+.card .content .details h2 span {
+  font-size: 0.75em;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.card .content .details .data {
+  margin: 20px -50px;
+}
+
+.card .content .details .data h3 {
+  font-size: 1em;
+  color: #7380ec;
+  line-height: 1.2em;
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.imageProfileTable{
+  width: 40px;
+  height: 40px;
+}
+/* .imageProfileTable:hover{
+  width: 60px;
+  height: 60px;
+} */
+
+.iconProfile{
+  color: #7380ec;
+}
+
+.iconProfile:hover{
+  color: red;
+}
+
+.iconProfileGreen{
+  color: green;
+}
+
+.iconProfileRed{
+  color: red;
+}
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+
+  .table {
+    margin-top: 80px;
+  }
+
+  /* Section three*/
+  table,
+  thead,
+  tbody,
+  th,
+  tr {
+    display: block;
+    width: 100%;
+  }
+
+  thead {
+    display: none;
+  }
+
+  /* Section four*/
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    border-bottom: 1px solid #ccc;
+
+  }
+
+  /* Section five*/
+  td {
+    display: block;
+    margin-bottom: 15px;
+    right: 150px;
+    margin-left: 10px;
+  }
+
+  td:before {
+    position: absolute;
+    left: 5%;
+    width: 100%;
+    padding-left: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: left;
+    color: #32be8f;
+  }
+
+  /* Section six*/
+
+  td:nth-of-type(1):before {
+    content: "First Name";
+  }
+
+  td:nth-of-type(2):before {
+    content: "Last Name";
+  }
+
+  td:nth-of-type(3):before {
+    content: "Phone Number";
+  }
+
+  td:nth-of-type(4):before {
+    content: "Email";
+  }
+
+  td:nth-of-type(5):before {
+    content: "Date";
+  }
+
+  td:nth-of-type(6):before {
+    content: "Message";
+  }
+
+  td:nth-of-type(7):before {
+    content: "Action";
+  }
+}

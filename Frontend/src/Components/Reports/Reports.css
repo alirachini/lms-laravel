@@ -1,0 +1,108 @@
+.pie {
+    height: 300px;
+    width: 500px;
+}
+
+.barchart {
+    height: 400px;
+    width: 900px;
+    margin-top: 100px;
+}
+
+.input_drop{
+    margin-bottom: 50px;
+}
+
+.flex-container {
+    display: flex;
+    margin-top: 300px;
+    gap: 90px;
+    margin-left: 300px;
+}
+
+.flex-child {
+    flex: 1;
+    border: 2px solid yellow;
+}
+
+.flex-child:first-child {
+    margin-left: 200px;
+}
+
+
+
+.i-name {
+    color: #444a53;
+    padding: 30px 30px 0 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.values {
+    padding: 0px 100px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.values .val-box {
+    background-color: #fff;
+    width: 235px;
+    padding: 16px 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.values .val-box:hover {
+    box-shadow: 0 10px 25px #7380ec;
+}
+
+.icon_reports {
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+    line-height: 60px;
+    border-radius: 10px;
+    text-align: center;
+    color: #7380ec;
+    margin-right: 15px;
+}
+
+.values .val-box h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.values .val-box span {
+    font-size: 15px;
+    color: #828997;
+}
+
+.par_reports {
+    margin-top: 60px;
+}
+.p_reports{
+    color: #828997;
+}
+
+.h1_reports {
+    color: #2F5288;
+    font-weight: 600;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 4px solid #7380ec;
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+.bar_report{
+    margin-left: 300px;
+    width: 200px;
+    margin-top: 60px;
+}
